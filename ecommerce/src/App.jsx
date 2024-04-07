@@ -1,11 +1,9 @@
-
-import './App.css'
+import products from './products.json'
+import Products from './Products'
 
 function App() {
-  
-
   return (
-    <h1>HOLA</h1>
+    <Products producto={products} />
   )
 }
 
